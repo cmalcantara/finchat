@@ -1,5 +1,19 @@
 # FinChat Setup Guide
 
+## Auth Setup
+
+Generate a secret and set your password in `.env.local`:
+```bash
+openssl rand -hex 32   # paste this as AUTH_SECRET
+```
+
+```
+AUTH_SECRET=<output from above>
+APP_PASSWORD=<your chosen password>
+```
+
+The session cookie lasts 1 year — you'll rarely need to log in again. To invalidate all existing sessions (e.g. if the device is lost), change `AUTH_SECRET` and restart.
+
 ## Quick Start
 
 ```bash
