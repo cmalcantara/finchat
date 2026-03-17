@@ -4,5 +4,5 @@
 
 *Inspired by Alkansya AI*
 
-![Chat Interface](screenshots/Screenshot_20260318_035001.jpg)
-![BudgetInterface](Screenshot_20260318_035254.jpg)
+<img src="screenshots/Screenshot_20260318_035001" width="500">
+<img src="screenshots/Screenshot_20260318_035254" width="500">
